@@ -1,0 +1,121 @@
+{
+	"police": [
+		{
+			"name": "FHP 13 TAHOE",
+			"vehicle": "valor13tahoe",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 14 TAHOE",
+			"vehicle": "valor14charg",
+			"isAvailableForEveryone": false,
+			"useRanks": true,
+			"availableForRanks": ["Officer I", "Officer II"],
+			"availableForDepartments": []
+		},
+		{
+			"name": "FHP 15 F150",
+			"vehicle": "valor15f150",
+			"isAvailableForEveryone": false,
+			"useRanks": false,
+			"availableForRanks": ["Detective I", "Detective II"],
+			"availableForDepartments": [18]
+		},
+		{
+			"name": "FHP 16 FPIU",
+			"vehicle": "valor16fpiu",
+			"isAvailableForEveryone": false,
+			"useRanks": false,
+			"availableForDepartments": [19]
+		},
+		{
+			"name": "FHP 16 FPIU K9",
+			"vehicle": "valor16fpiuk9",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 18 CHARGER",
+			"vehicle": "valor18charg",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 18 CHARGER K9",
+			"vehicle": "valor18chargk9",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 18 TAHOE",
+			"vehicle": "valor18tahoe",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 18 TAHOE K9",
+			"vehicle": "valor18tahoek9",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 19 SILVERADO",
+			"vehicle": "valor19silv",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 20 FPIU",
+			"vehicle": "valor20fpiu",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP 20 RAM",
+			"vehicle": "valor20ram",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP CAPRICE",
+			"vehicle": "valorcap",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP CROWN VICTORIA",
+			"vehicle": "valorcvpi",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP CROWN VICTORIA K9",
+			"vehicle": "valorcvpik9",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP F250",
+			"vehicle": "valorf250",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP FPIS",
+			"vehicle": "valorfpis",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP GMC",
+			"vehicle": "valorgmc",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP HARLEY",
+			"vehicle": "valorharley",
+			"isAvailableForEveryone": true
+		},
+		{
+			"name": "FHP RAM",
+			"vehicle": "valorram",
+			"isAvailableForEveryone": true
+		},
+	],
+	"ambulance": ["ambulance"],
+	"airAmbulance": ["polmav"],
+	"firedept": ["firetruk"],
+	"coroner": ["hearse"],
+	"towtruck": ["flatbed"],
+	"mechanic": ["utillitruck3"],
+	"prisontransport": ["speedo"],
+	"animalControl": ["bison"],
+	"taxi": ["taxi"]
+}
